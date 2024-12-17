@@ -1,14 +1,45 @@
-# Vacation-Tracking-System(VTS)
+# Vacation Tracking System(VTS)
+# Index
+- [**Vision**](#vision)
+- [**Domain**](#domain)
+- [**Actors**](#actors)
+- [**Requirements**](#requirements)
+  - [Function Requirements](#function-requirements)
+  - [Non-Function Requirement](#non-function-requirement)
+  - [Constraints](#constraints)
+- [**Flowcharts**](#flowcharts)
+- [**Sequence Diagrams**](#sequence-diagrams) *****
+- [**State Machine Diagrams**](#state-machine-diagrams) ****
+  - [Vacation Request State](#vacation-request-state)
+- [**Data Model**](#data-mode)
+
 
 # Vision
 
 Vacation Tracking System (VTS) is to make it easy for employees to manage their vacation, sick leave, and personal time off. The system will save time for both employees and the HR department. It will help employees take control of their time off, while reducing the workload of managers and HR staff.
+---
+
+# Domain
+
+Vacation Tracking System (VTS) focuses on managing employee vacation requests, including vacation, sick leave, and personal time off. It allows employees to request and track vacation, while managers approve or reject requests.
+
+---
+# Actors
+
+- **Employee:** The main user of this system. An employee uses this system to
+manage his or her vacation time.
+- **Manager:** An employee who has all the abilities and goals of a regular employee,
+ but with the added responsibility of approving vacation requests for immediate subordinates.
+ A manager may award subordinates comp time, subject to certain limits set in the system.
+- **Clerk:** A member of the HR department who has sufficient rights to view employees’ personal data and is responsible for ensuring that employees’ information in all HR systems is up to date and correct.
+- **System Admin:** A role responsible for the smooth running of the system’s technical 
+resources (e.g., Web server, database) and for collecting and archiving all log files.
 
 ---
 
 # Function Requirements
 
-- **Flexible rules-based system for validating**
+- **Flexible rules-based system for validating:**
     
     Ensures requests are validated according to predefined rules and criteria before approval.
     
@@ -62,7 +93,6 @@ Vacation Tracking System (VTS) is to make it easy for employees to manage their 
     - Any downtime should be communicated to users in advance, and issues should be resolved within 4 hours.
 
 ---
-
 # Constraints
 
 - Uses existing hardware and middleware
@@ -70,45 +100,30 @@ Vacation Tracking System (VTS) is to make it easy for employees to manage their 
 
 ---
 
-# Domain
-
-Vacation Tracking System (VTS) focuses on managing employee leave requests, including vacation, sick leave, and personal time off. It allows employees to request and track leave, while managers approve or reject requests. The system enforces company policies, integrates with HR systems, and ensures secure data handling. Automated notifications keep users informed, and the system is designed to be scalable, reliable, and user-friendly.
-
----
-
-# Actor
-
-- **Employee:** The main user of this system. An employee uses this system to
-manage his or her vacation time.
-- **Manager:** An employee who has all the abilities and goals of a regular employee,
- but with the added responsibility of approving vacation requests for immediate subordinates.
- A manager may award subordinates comp time, subject to certain limits set in the system.
-- **Clerk:** A member of the HR department who has sufficient rights to view employees’ personal data and is responsible for ensuring that employees’ information in all HR systems is up to date and correct.
-    - An HR clerk can add or remove nearly any record in the system.
-- **System Admin:** A role responsible for the smooth running of the system’s technical 
-resources (e.g., Web server, database) and for collecting and archiving all log files.
-
----
-
 # Flowchart
 
 ### Create Request
 
-![Flowchart](https://github.com/user-attachments/assets/03c41622-f979-4a2f-afd4-418507c4700f)
-
+![image](https://github.com/user-attachments/assets/3088a0a4-c9e2-4dbb-851a-dee3a172b0c5)
 
 ### Withdraw Request
 
-![Flowchart](https://github.com/user-attachments/assets/3d0df5bb-7412-4d5e-a423-f585ead9062b)
+![image](https://github.com/user-attachments/assets/44567a51-da7b-41d8-95cc-0ca795f7132e)
 
 ### Cancel Approved Request
 
-![Flowchart (1)](https://github.com/user-attachments/assets/08d7d55a-7be6-46bd-88d9-25c4c9133819)
+![image](https://github.com/user-attachments/assets/c2081073-15a0-4bc6-90a4-e0c3b98e0ee2)
 
+
+### Edit Pending Request
+
+![image](https://github.com/user-attachments/assets/74d141ef-ac17-475e-9737-6c2332c480a0)
 
 ---
 
 # Sequence Diagram
 
-### Create Request
-![Sequence_diagram](https://github.com/user-attachments/assets/d9233f58-72a3-40eb-9394-2654cd6cb7d8)
+
+# Data Mode
+![image](https://github.com/user-attachments/assets/b723f1c9-fcd7-46e8-af3e-810856c830d2)
+

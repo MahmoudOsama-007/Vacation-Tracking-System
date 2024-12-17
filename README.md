@@ -8,8 +8,8 @@
   - [Non-Function Requirement](#non-function-requirement)
   - [Constraints](#constraints)
 - [**Flowcharts**](#flowcharts)
-- [**Sequence Diagrams**](#sequence-diagrams) *****
-- [**State Machine Diagrams**](#state-machine-diagrams) ****
+- [**Sequence Diagrams**](#sequence-diagrams)
+- [**State Machine Diagrams**](#state-machine-diagrams)
   - [Vacation Request State](#vacation-request-state)
 - [**Data Model**](#data-mode)
 
@@ -122,6 +122,9 @@ resources (e.g., Web server, database) and for collecting and archiving all log 
 ---
 
 # Sequence Diagram
+## create Request
+  ![Sequence diagram](https://github.com/user-attachments/assets/8a7b8ae6-22a0-48b8-bc72-a5ce940dbe50)
+
 
 ---
 

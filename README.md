@@ -123,7 +123,14 @@ resources (e.g., Web server, database) and for collecting and archiving all log 
 
 # Sequence Diagram
 
+---
 
 # Data Mode
-![image](https://github.com/user-attachments/assets/b723f1c9-fcd7-46e8-af3e-810856c830d2)
+![image](https://github.com/user-attachments/assets/a9381ef1-6559-49ef-a553-eb59c6ecd01c)
+
+---
+# State Machine Diagrams
+## Vacation Request State
+![image](https://github.com/user-attachments/assets/122c522a-8789-466b-8805-def25c080b59)
+
 

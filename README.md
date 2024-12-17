@@ -15,8 +15,8 @@
 
 
 # Vision
-
 Vacation Tracking System (VTS) is to make it easy for employees to manage their vacation, sick leave, and personal time off. The system will save time for both employees and the HR department. It will help employees take control of their time off, while reducing the workload of managers and HR staff.
+
 ---
 
 # Domain
@@ -36,8 +36,8 @@ manage his or her vacation time.
 resources (e.g., Web server, database) and for collecting and archiving all log files.
 
 ---
-
-# Function Requirements
+# Requirements
+## Function Requirements
 
 - **Flexible rules-based system for validating:**
     
@@ -78,7 +78,7 @@ resources (e.g., Web server, database) and for collecting and archiving all log 
 
 ---
 
-# Non-Function Requirement
+## Non-Function Requirement
 
 - **Performance**
     - The system should handle up to 500 concurrent users without significant performance degradation.
@@ -93,7 +93,7 @@ resources (e.g., Web server, database) and for collecting and archiving all log 
     - Any downtime should be communicated to users in advance, and issues should be resolved within 4 hours.
 
 ---
-# Constraints
+## Constraints
 
 - Uses existing hardware and middleware
 - Deal with existing intranet portal system, and uses the portal’s single-sign-on mechanisms for all authentication

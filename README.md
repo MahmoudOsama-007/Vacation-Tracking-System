@@ -100,7 +100,7 @@ resources (e.g., Web server, database) and for collecting and archiving all log 
 
 ---
 
-# Flowchart
+# Flowcharts
 
 ### Create Request
 
